@@ -1,0 +1,115 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.news__blocks {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.news__item img {
+  display: inline-block;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.news__item {
+  margin-bottom: 3px;
+}
+
+.search__form {
+  display: flex;
+  height: 40px;
+  padding-left: 200px;
+  margin-bottom: 25px;
+}
+
+.search {
+  display: flex;
+}
+
+.logo {
+  margin-right: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.category {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.category li {
+  margin-right: 10px;
+}
+
+.banner {
+  display: flex;
+  padding-left: 200px;
+  margin-bottom: 25px;
+}
+
+.media {
+  margin-left: 121px;
+  margin-top: 25px;
+  columns: 3;
+  column-gap: 2em;
+}
+
+.widget {
+  max-width: 230px;
+  margin-bottom: 20px;
+  break-inside: avoid;
+}
+
+.widget .title {
+  margin-bottom: 10px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.weather span {
+  font-size: 25px;
+}
+
+.weather img {
+  width: 50px;
+}
+
+.visited {
+  font-size: 13px;
+}
+
+.visited span {
+  font-weight: 700;
+}
+
+.visited div {
+  margin-bottom: 5px;
+}
+
+.tvguide {
+  font-size: 14px;
+  color: rgb(104, 100, 100);
+}
+
+.tvguide span {
+  margin-right: 7px;
+  color: black;
+}
