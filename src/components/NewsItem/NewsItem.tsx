@@ -4,7 +4,7 @@ import { TNews } from "../../types";
  *  Единичная новость
  */
 
-export function NewsItem({ item }: TNews) {
+export function NewsItem({ item }: { item: TNews } ) {
 
     return (
         <li className="news__item">

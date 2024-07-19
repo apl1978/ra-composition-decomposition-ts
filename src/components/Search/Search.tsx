@@ -10,7 +10,7 @@ export function Search() {
     return (
 <>
         <ul className="category">
-            {categories.map((item: string, i: number) => <li  key={i} category={i} className="title"><a href="#">{item}</a></li>)}
+            {categories.map((item: string, i: number) => <li  key={i} className="title"><a href="#">{item}</a></li>)}
         </ul>
 
             <form className='search__form'>

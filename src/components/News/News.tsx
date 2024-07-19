@@ -5,7 +5,7 @@ import { TNews } from "../../types";
  *  Список новостей
  */
 
-export function News({ news }: TNews[]) {
+export function News({ news }: { news: TNews[] }) {
 
     return (
         <div className='news_block'>
